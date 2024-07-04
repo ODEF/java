@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Numinput {   
+public static void main(String[] args){
+ Scanner number = new Scanner(System.in);
+ System.out.println("Write an ending number: ");
+ 
+ 
+ int n = number.nextInt();
+
+ System.out.println("Ending number is: " + n);
+ System.out.println(" ");
+
+ int[] k = new int[n+1];
+ int v = 0;
+     for(var i = 0; i<=0; i++){
+      k[i]=i;
+      System.out.println(k[i] + " ");
+     }
+  }
+}
